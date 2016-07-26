@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EBRAXRS232Service", "EBRAXRS232Service\EBRAXRS232Service.csproj", "{EAFF6560-2092-4529-852D-AA66CA9F9563}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EBRAXSerialPortReaderInstall", "EBRAXSerailPortReaderInstall\EBRAXSerailPortReaderInstall.vdproj", "{F37E584F-128B-4973-B850-46325D045F68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDCSendMessage", "NDCSendMessage\NDCSendMessage.csproj", "{198D8ECB-59B5-4290-849C-5E3D024625CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAFF6560-2092-4529-852D-AA66CA9F9563}.Debug|x86.ActiveCfg = Debug|x86
+		{EAFF6560-2092-4529-852D-AA66CA9F9563}.Debug|x86.Build.0 = Debug|x86
+		{EAFF6560-2092-4529-852D-AA66CA9F9563}.Release|x86.ActiveCfg = Release|x86
+		{EAFF6560-2092-4529-852D-AA66CA9F9563}.Release|x86.Build.0 = Release|x86
+		{F37E584F-128B-4973-B850-46325D045F68}.Debug|x86.ActiveCfg = Debug
+		{F37E584F-128B-4973-B850-46325D045F68}.Release|x86.ActiveCfg = Release
+		{198D8ECB-59B5-4290-849C-5E3D024625CF}.Debug|x86.ActiveCfg = Debug|x86
+		{198D8ECB-59B5-4290-849C-5E3D024625CF}.Debug|x86.Build.0 = Debug|x86
+		{198D8ECB-59B5-4290-849C-5E3D024625CF}.Release|x86.ActiveCfg = Release|x86
+		{198D8ECB-59B5-4290-849C-5E3D024625CF}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

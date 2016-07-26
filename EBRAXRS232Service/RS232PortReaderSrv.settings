@@ -1,0 +1,36 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="EBRAXRS232Service" GeneratedClassName="RS232PortReaderSrv">
+  <Profiles />
+  <Settings>
+    <Setting Name="RunProgram" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NDCSendMessage.exe</Value>
+    </Setting>
+    <Setting Name="LogSource" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">EBRAXSerialReader</Value>
+    </Setting>
+    <Setting Name="LogLog" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SerialReader</Value>
+    </Setting>
+    <Setting Name="ReadSleepTime" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">60000</Value>
+    </Setting>
+    <Setting Name="LogLevel" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="EBRAXStatusLogFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">logs\StatusHistory.log</Value>
+    </Setting>
+    <Setting Name="Culture" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ES_ES</Value>
+    </Setting>
+    <Setting Name="WarningTimeout" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">120</Value>
+    </Setting>
+    <Setting Name="MaxCycle" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="ReopenTryCycle" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
